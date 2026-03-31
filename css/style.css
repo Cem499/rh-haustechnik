@@ -779,20 +779,25 @@ h4 { font-size: 1rem; font-weight: 600; }
 .rating-row {
   display: flex;
   align-items: center;
-  gap: var(--s3);
+  flex-wrap: wrap;
+  gap: var(--s2);
   padding: var(--s3) var(--s4);
   background: rgba(255,255,255,0.05);
   border-radius: var(--r);
   border: 1px solid rgba(255,255,255,0.07);
+  box-sizing: border-box;
+  width: 100%;
 }
 
-.rating-stars { display:flex; gap:2px; }
+.rating-stars { display:flex; gap:2px; order:1; }
 .rating-stars i { color: #f59e0b; font-size: 0.85rem; }
 
 .rating-text {
   font-size: 0.8rem;
   color: rgba(255,255,255,0.48);
   line-height: 1.4;
+  order: 3;
+  width: 100%;
 }
 
 .rating-score {
@@ -800,8 +805,9 @@ h4 { font-size: 1rem; font-weight: 600; }
   font-size: 1.6rem;
   font-weight: 800;
   color: var(--white);
-  margin-left: auto;
+  margin-left: 6px;
   letter-spacing: -0.04em;
+  order: 2;
 }
 
 /* benefits */
@@ -1770,6 +1776,8 @@ input.error, select.error, textarea.error { border-color: var(--red); }
 
   /* why */
   .why-panel           { padding: var(--s5); }
+  .why-section .btn    { width: 100%; justify-content: center; box-sizing: border-box; }
+  .why-layout > div    { min-width: 0; }
 
   /* refs */
   .ref-grid            { grid-template-columns: 1fr; }
@@ -1841,6 +1849,7 @@ input.error, select.error, textarea.error { border-color: var(--red); }
 
   /* why */
   .why-panel           { padding: var(--s4); }
+  .why-section .btn    { width: 100%; justify-content: center; box-sizing: border-box; }
 
   /* contact */
   .c-form-box          { padding: var(--s4); }
