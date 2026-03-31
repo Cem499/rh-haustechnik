@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RH Haustechnik GmbH – Unsere Referenzen: Abgeschlossene Projekte in Sanitär, Heizung und Badsanierung in der ganzen Schweiz." />
+  <title>Referenzen – RH Haustechnik GmbH</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/logo.png" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled" role="navigation" aria-label="Hauptnavigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="nav-logo" aria-label="RH Haustechnik Startseite">
+          <img src="img/logo.png" alt="RH Haustechnik GmbH" />
+        </a>
+        <ul class="nav-links" role="list">
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="leistungen.html">Leistungen</a></li>
+          <li><a href="referenzen.html" class="active">Referenzen</a></li>
+          <li><a href="notfall.html">24/7 Notfall</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="nav-right">
+          <a href="tel:+41763861446" class="nav-tel" aria-label="Jetzt anrufen">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            076 386 14 46
+          </a>
+          <a href="kontakt.html" class="btn btn-primary">Offerte anfragen</a>
+        </div>
+        <button class="hamburger" aria-label="Menü öffnen" aria-expanded="false">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation">
+    <div class="mob-head">
+      <img src="img/logo.png" alt="RH Haustechnik GmbH" />
+      <button class="mob-close" aria-label="Menü schliessen">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+    </div>
+    <nav class="mob-nav">
+      <a href="index.html"><i class="fa-solid fa-house" aria-hidden="true"></i> Startseite</a>
+      <a href="leistungen.html"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> Leistungen</a>
+      <a href="referenzen.html" class="active"><i class="fa-solid fa-images" aria-hidden="true"></i> Referenzen</a>
+      <a href="notfall.html"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> 24/7 Notfall</a>
+      <a href="kontakt.html"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Kontakt</a>
+    </nav>
+    <div class="mob-cta">
+      <a href="tel:+41763861446" class="mob-phone">
+        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+        <div>
+          <span class="mp-label">Notfall-Hotline – 24/7 verfügbar</span>
+          <span class="mp-num">076 386 14 46</span>
+        </div>
+      </a>
+      <a href="kontakt.html" class="btn btn-primary btn-lg" style="justify-content:center;">Kostenlose Offerte anfragen</a>
+    </div>
+  </div>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header" aria-labelledby="pageTitle">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Startseite</a>
+        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        <span aria-current="page">Referenzen</span>
+      </nav>
+      <h1 id="pageTitle">Unsere Referenzen</h1>
+      <p>Einblicke in abgeschlossene Projekte. Qualität, die man sieht – und Kunden, die begeistert sind.</p>
+    </div>
+  </header>
+
+  <!-- REFERENCES -->
+  <section class="section" aria-labelledby="refTitle">
+    <div class="container">
+      <div class="shd center">
+        <span class="label">Portfolio</span>
+        <h2 class="shd-title" id="refTitle">Über 150+ abgeschlossene Projekte</h2>
+        <p class="shd-sub">Filtern Sie nach Kategorie und entdecken Sie unsere Arbeit.</p>
+      </div>
+
+      <!-- Filter -->
+      <div class="ref-filter-bar" role="group" aria-label="Referenzen filtern">
+        <button class="filt-btn active" data-filter="all">Alle Projekte</button>
+        <button class="filt-btn" data-filter="sanit"><i class="fa-solid fa-droplet" aria-hidden="true"></i> Sanitär</button>
+        <button class="filt-btn" data-filter="heiz"><i class="fa-solid fa-fire" aria-hidden="true"></i> Heizung</button>
+        <button class="filt-btn" data-filter="bad"><i class="fa-solid fa-bath" aria-hidden="true"></i> Badsanierung</button>
+        <button class="filt-btn" data-filter="neubau"><i class="fa-solid fa-building" aria-hidden="true"></i> Neubau</button>
+      </div>
+
+      <!-- Grid -->
+      <div class="ref-full-grid" role="list">
+
+        <article class="ref-card ref-card-item fi" data-cat="bad" role="listitem">
+          <div class="ref-thumb t-ink" role="img" aria-label="Badsanierung Einfamilienhaus Zürich">
+            <img src="img/sanitaer.jpg" alt="Badsanierung Einfamilienhaus Zürich" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="ref-badge">Badsanierung</div>
+          </div>
+          <div class="ref-body">
+            <h4>Badsanierung EFH Zürich</h4>
+            <p>Komplette Kernsanierung eines Badezimmers mit neuen Leitungen, Walk-in-Dusche und modernen Armaturen. Ausführung in 3 Wochen.</p>
+            <div class="ref-tags">
+              <span><i class="fa-solid fa-location-dot" style="font-size:.65rem;color:var(--red);" aria-hidden="true"></i> Zürich</span>
+              <span>EFH</span>
+              <span>3 Wochen</span>
+              <span>2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="ref-card ref-card-item fi" data-cat="heiz" role="listitem">
+          <div class="ref-thumb t-red" role="img" aria-label="Wärmepumpe MFH Winterthur">
+            <img src="img/heizung.jpg" alt="Wärmepumpe MFH Winterthur" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="ref-badge">Heizung</div>
+          </div>
+          <div class="ref-body">
+            <h4>Wärmepumpe MFH Winterthur</h4>
+            <p>Installation einer Luft-Wasser-Wärmepumpe in einem 8-Familienhaus inkl. Hydraulik und Steuerungsanlage.</p>
+            <div class="ref-tags">
+              <span><i class="fa-solid fa-location-dot" style="font-size:.65rem;color:var(--red);" aria-hidden="true"></i> Winterthur</span>
+              <span>MFH</span>
+              <span>Energieeffizienz</span>
+              <span>2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="ref-card ref-card-item fi" data-cat="neubau" role="listitem">
+          <div class="ref-thumb t-slate" role="img" aria-label="Neubau Sanitär Schaffhausen">
+            <img src="img/wartung.jpg" alt="Neubau Sanitär Schaffhausen" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="ref-badge">Neubau</div>
+          </div>
+          <div class="ref-body">
+            <h4>Neubau Sanitär Schaffhausen</h4>
+            <p>Vollständige Sanitärinstallation für ein neues Einfamilienhaus – von den Grundleitungen bis zu Armaturen und Boiler.</p>
+            <div class="ref-tags">
+              <span><i class="fa-solid fa-location-dot" style="font-size:.65rem;color:var(--red);" aria-hidden="true"></i> Schaffhausen</span>
+              <span>Neubau</span>
+              <span>EFH</span>
+              <span>2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="ref-card ref-card-item fi" data-cat="sanit" role="listitem">
+          <div class="ref-thumb t-ink" role="img" aria-label="Kücheninstallation Einfamilienhaus">
+            <img src="img/kueche.jpg" alt="Kücheninstallation Einfamilienhaus" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="ref-badge">Sanitär</div>
+          </div>
+          <div class="ref-body">
+            <h4>Küchen-Komplettinstallation EFH</h4>
+            <p>Einbau einer modernen Einbauküche mit Spülmaschinen-Anschluss, Armaturen und Warmwasserboiler.</p>
+            <div class="ref-tags">
+              <span><i class="fa-solid fa-location-dot" style="font-size:.65rem;color:var(--red);" aria-hidden="true"></i> Zürich</span>
+              <span>Küche</span>
+              <span>1 Woche</span>
+              <span>2023</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="ref-card ref-card-item fi" data-cat="heiz" role="listitem">
+          <div class="ref-thumb t-red" role="img" aria-label="Gasheizung Renovation">
+            <img src="img/heizung.jpg" alt="Gasheizung Renovation" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="ref-badge">Heizung</div>
+          </div>
+          <div class="ref-body">
+            <h4>Gasheizung-Erneuerung MFH</h4>
+            <p>Austausch einer alten Gasheizung durch ein modernes Brennwertgerät mit neuer Steuerung. Energieeinsparung von 30%.</p>
+            <div class="ref-tags">
+              <span><i class="fa-solid fa-location-dot" style="font-size:.65rem;color:var(--red);" aria-hidden="true"></i> Kloten</span>
+              <span>MFH</span>
+              <span>Energiesparen</span>
+              <span>2023</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="ref-card ref-card-item fi" data-cat="bad" role="listitem">
+          <div class="ref-thumb t-slate" role="img" aria-label="Seniorengerechtes Bad">
+            <img src="img/bad.jpg" alt="Barrierefreies Bad Umbau" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="ref-badge">Badsanierung</div>
+          </div>
+          <div class="ref-body">
+            <h4>Barrierefreies Bad Umbau</h4>
+            <p>Umbau zu einem barrierefreien Badezimmer mit bodengleicher Dusche, Haltegriffen und behindertengerechten Armaturen.</p>
+            <div class="ref-tags">
+              <span><i class="fa-solid fa-location-dot" style="font-size:.65rem;color:var(--red);" aria-hidden="true"></i> Andelfingen</span>
+              <span>Barrierefrei</span>
+              <span>EFH</span>
+              <span>2023</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="ref-card ref-card-item fi" data-cat="neubau" role="listitem">
+          <div class="ref-thumb t-ink" role="img" aria-label="Neubau MFH Komplettinstallation">
+            <img src="img/sanitaer.jpg" alt="MFH Neubau Komplettinstallation" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="ref-badge">Neubau</div>
+          </div>
+          <div class="ref-body">
+            <h4>MFH Neubau Komplettinstallation</h4>
+            <p>Sanitär- und Heizungsinstallation für ein 12-Familienhaus im Neubau – termingerecht und budgettreu realisiert.</p>
+            <div class="ref-tags">
+              <span><i class="fa-solid fa-location-dot" style="font-size:.65rem;color:var(--red);" aria-hidden="true"></i> Frauenfeld</span>
+              <span>MFH 12 Wohnungen</span>
+              <span>Neubau</span>
+              <span>2023</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="ref-card ref-card-item fi" data-cat="sanit" role="listitem">
+          <div class="ref-thumb t-red" role="img" aria-label="Rohrsanierung Altbau">
+            <img src="img/notfall.jpg" alt="Rohrsanierung Altbau" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="ref-badge">Sanitär</div>
+          </div>
+          <div class="ref-body">
+            <h4>Rohrsanierung Altbau</h4>
+            <p>Vollständige Erneuerung alter Kupferleitungen in einem 50-jährigen Mehrfamilienhaus – inkl. Druckprüfung.</p>
+            <div class="ref-tags">
+              <span><i class="fa-solid fa-location-dot" style="font-size:.65rem;color:var(--red);" aria-hidden="true"></i> Stein am Rhein</span>
+              <span>Altbau</span>
+              <span>MFH</span>
+              <span>2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="ref-card ref-card-item fi" data-cat="heiz" role="listitem">
+          <div class="ref-thumb t-slate" role="img" aria-label="Fussbodenheizung Neubau">
+            <img src="img/wartung.jpg" alt="Fussbodenheizung Neubau EFH" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="ref-badge">Heizung</div>
+          </div>
+          <div class="ref-body">
+            <h4>Fussbodenheizung Neubau EFH</h4>
+            <p>Installation einer modernen Flächenheizung mit smarter Zonensteuerung auf 180 m² – komfortable Wärmeverteilung auf allen Etagen.</p>
+            <div class="ref-tags">
+              <span><i class="fa-solid fa-location-dot" style="font-size:.65rem;color:var(--red);" aria-hidden="true"></i> Stein am Rhein</span>
+              <span>Neubau</span>
+              <span>Smart Home</span>
+              <span>2024</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div style="text-align:center;margin-top:var(--s10);" class="fi">
+        <p style="color:var(--muted);margin-bottom:var(--s4);">Haben Sie ein ähnliches Projekt? Wir beraten Sie gerne kostenlos!</p>
+        <a href="kontakt.html" class="btn btn-primary btn-lg">
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          Kostenlose Offerte anfragen
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testi-section" aria-labelledby="tTitle">
+    <div class="container">
+      <div class="shd center" style="margin-bottom:var(--s8);">
+        <span class="label">Kundenfeedback</span>
+        <h2 class="shd-title" id="tTitle" style="color:var(--white);">Was Kunden über uns sagen</h2>
+        <p class="shd-sub" style="color:rgba(255,255,255,0.48);margin:0 auto;">Ehrliche Bewertungen von zufriedenen Kunden aus der ganzen Schweiz.</p>
+      </div>
+      <div class="testi-grid">
+        <article class="t-card fi">
+          <div class="t-stars" aria-label="5 von 5 Sternen">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="t-quote">Sehr zuverlässiger Sanitär-Service. Die Arbeit wurde schnell, sauber und professionell erledigt. Freundlicher Kontakt und faire Preise. Kann ich definitiv weiterempfehlen.</p>
+          <div class="t-author">
+            <div class="t-av" aria-hidden="true">C</div>
+            <div>
+              <span class="t-name">Cem S.</span>
+              <span class="t-loc"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Google Bewertung</span>
+            </div>
+          </div>
+        </article>
+        <article class="t-card fi">
+          <div class="t-stars" aria-label="5 von 5 Sternen">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="t-quote">Alle Arbeiten korrekt durchgeführt und sehr preiswert erledigt.</p>
+          <div class="t-author">
+            <div class="t-av" aria-hidden="true">S</div>
+            <div>
+              <span class="t-name">Sükrü S.</span>
+              <span class="t-loc"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Google Bewertung</span>
+            </div>
+          </div>
+        </article>
+        <article class="t-card fi">
+          <div class="t-stars" aria-label="5 von 5 Sternen">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="t-quote">5 von 5 Sternen auf Google Maps.</p>
+          <div class="t-author">
+            <div class="t-av" aria-hidden="true">R</div>
+            <div>
+              <span class="t-name">Regula H.</span>
+              <span class="t-loc"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Local Guide (6 Rezensionen, 5 Fotos)</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" aria-labelledby="ctaTitle">
+    <div class="container">
+      <div class="cta-inner">
+        <div class="cta-text">
+          <h2 id="ctaTitle">Ihr Projekt ist unser nächstes Highlight!</h2>
+          <p>Kontaktieren Sie uns für eine kostenlose Beratung. Wir freuen uns auf Ihr Projekt.</p>
+        </div>
+        <div class="cta-btns">
+          <a href="kontakt.html" class="btn btn-white btn-lg">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            Offerte anfragen
+          </a>
+          <a href="tel:+41763861446" class="btn btn-ghost btn-lg">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            076 386 14 46
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="img/logo.png" alt="RH Haustechnik GmbH" />
+          <p>Ihr zuverlässiger Partner für Sanitär- und Heizungsinstallationen – professionell, transparent und persönlich.</p>
+          <div class="footer-socials" aria-label="Social Media">
+            <a href="#" class="f-social" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="f-social" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="f-social" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <nav class="footer-col" aria-label="Navigation">
+          <h4>Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Startseite</a></li>
+            <li><a href="leistungen.html"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Leistungen</a></li>
+            <li><a href="referenzen.html"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Referenzen</a></li>
+            <li><a href="notfall.html"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> 24/7 Notfall</a></li>
+            <li><a href="kontakt.html"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Kontakt</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-col" aria-label="Leistungen">
+          <h4>Leistungen</h4>
+          <ul class="footer-nav-list">
+            <li><a href="leistungen.html"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Sanitärinstallationen</a></li>
+            <li><a href="leistungen.html"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Heizungsinstallationen</a></li>
+            <li><a href="leistungen.html"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Badsanierungen</a></li>
+            <li><a href="leistungen.html"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Wärmepumpen</a></li>
+            <li><a href="notfall.html"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Notfalldienst 24/7</a></li>
+          </ul>
+        </nav>
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <div class="footer-contact-list">
+            <div class="fc-row">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              <span>Birmensdorferstrasse 75<br>8902 Urdorf</span>
+            </div>
+            <div class="fc-row">
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <a href="tel:+41763861446">076 386 14 46</a>
+            </div>
+            <div class="fc-row">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:info@rh-haustechnik.ch">info@rh-haustechnik.ch</a>
+            </div>
+            <div class="fc-row">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              <span>Geschlossen · Öffnet Di um 07:00<br>Notfall: 24/7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 RH Haustechnik GmbH. Alle Rechte vorbehalten.</p>
+        <div class="footer-legal">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+          <a href="#">AGB</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top-btn" aria-label="Nach oben scrollen" title="Nach oben">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
