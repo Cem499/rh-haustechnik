@@ -330,7 +330,7 @@ h4 { font-size: 1rem; font-weight: 600; }
 /* ─── HERO ─── */
 .hero {
   min-height: 100vh;
-  background: var(--ink);
+  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../img/Hero-Section.png') center center / cover no-repeat;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -351,14 +351,7 @@ h4 { font-size: 1rem; font-weight: 600; }
 
 /* Faint grid */
 .hero-grid {
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(255,255,255,1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px);
-  background-size: 64px 64px;
-  opacity: 0.018;
-  pointer-events: none;
+  display: none;
 }
 
 .hero-inner {
