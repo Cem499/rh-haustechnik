@@ -19,7 +19,7 @@
     <div class="container">
       <div class="nav-inner">
         <a href="index.html" class="nav-logo" aria-label="RH Haustechnik Startseite">
-          <img src="img/logo.png" alt="RH Haustechnik GmbH" />
+          <img src="img/logo.png" alt="RH Haustechnik GmbH" data-nolazy / loading="lazy" />
         </a>
         <ul class="nav-links" role="list">
           <li><a href="index.html">Startseite</a></li>
@@ -45,7 +45,7 @@
   <!-- MOBILE MENU -->
   <div class="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation">
     <div class="mob-head">
-      <img src="img/logo.png" alt="RH Haustechnik GmbH" />
+      <img src="img/logo.png" alt="RH Haustechnik GmbH" / loading="lazy" />
       <button class="mob-close" aria-label="Menü schliessen">
         <i class="fa-solid fa-xmark" aria-hidden="true"></i>
       </button>
@@ -254,12 +254,21 @@
     </div>
   </section>
 
+
+  <!-- MAP -->
+  <section class="map-section" aria-label="Standort">
+    <iframe
+      src="https://maps.google.com/maps?q=Birmensdorferstrasse+75,+8902+Urdorf,+Schweiz&output=embed&z=15"
+      title="Standort RH Haustechnik GmbH" allowfullscreen loading="lazy">
+    </iframe>
+  </section>
+
   <!-- FOOTER -->
   <footer class="footer" role="contentinfo">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="img/logo.png" alt="RH Haustechnik GmbH" />
+          <img src="img/logo.png" alt="RH Haustechnik GmbH" / loading="lazy" />
           <p>Ihr zuverlässiger Partner für Sanitär- und Heizungsinstallationen, professionell, transparent und persönlich.</p>
           <div class="footer-socials" aria-label="Social Media">
             <a href="#" class="f-social" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
@@ -319,6 +328,10 @@
       </div>
     </div>
   </footer>
+
+  <a href="https://wa.me/41763861446" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="WhatsApp schreiben">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
 
   <button class="scroll-top-btn" aria-label="Nach oben scrollen" title="Nach oben">
     <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
