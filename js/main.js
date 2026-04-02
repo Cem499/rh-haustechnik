@@ -23,13 +23,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileClose = document.querySelector('.mob-close');
 
   hamburger?.addEventListener('click', () => {
-    mobileMenu?.classList.add('open');
-    document.body.style.overflow = 'hidden';
+    const isOpen = mobileMenu?.classList.toggle('open');
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+    hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
   });
 
   const closeMob = () => {
     mobileMenu?.classList.remove('open');
     document.body.style.overflow = '';
+    hamburger?.setAttribute('aria-expanded', 'false');
   };
 
   mobileClose?.addEventListener('click', closeMob);
