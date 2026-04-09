@@ -1655,16 +1655,24 @@ input.error, select.error, textarea.error { border-color: var(--red); }
   padding: var(--s4) 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: var(--s3);
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.footer-bottom p { font-size: 0.78rem; color: rgba(255,255,255,0.22); margin:0; }
+.footer-bottom p { font-size: 0.78rem; color: rgba(255,255,255,0.22); margin:0; order: 3; }
 
-.footer-legal { display:flex; gap: var(--s3); }
+.footer-legal { display:flex; gap: var(--s3); order: 1; }
 .footer-legal a { font-size: 0.78rem; color: rgba(255,255,255,0.22); transition: color var(--t); }
 .footer-legal a:hover { color: var(--red); }
+
+.footer-credits { display: flex; align-items: center; gap: var(--s2); order: 2; }
+.footer-credits span { font-size: 0.78rem; color: rgba(255,255,255,0.22); }
+
+.credits-logo { display: flex; align-items: center; text-decoration: none; transition: opacity var(--t) var(--ease); }
+.credits-logo:hover { opacity: 0.8; }
+.credits-logo img { height: 28px; max-width: 140px; object-fit: contain; }
 
 /* ─── SCROLL TOP ─── */
 .scroll-top-btn {
@@ -1921,3 +1929,7 @@ input.error, select.error, textarea.error { border-color: var(--red); }
   .mob-phone .mp-num   { font-size: 1.1rem; }
   .hero-proof          { display: none; }
 }
+
+/* ─────────────────────────────────────────
+   RESPONSIVE
+───────────────────────────────────────── */
