@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+  // Update copyright year automatically
+  const yearElement = document.getElementById('copyright-year');
+  if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+  }
+
   // Navbar scroll
   const navbar = document.querySelector('.navbar');
   const scrollBtn = document.querySelector('.scroll-top-btn');
